@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>Chuksgpfr.privacyCom</PackageId>
+    <Authors>ChuksGPFR</Authors>
+    <PackageIconUrl>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAbFBMVEUjIyD///+NjYtXV1TW1tX29vanp6Y4ODVubm38/Pw9PTpQUE4rKyjx8fEuLivq6upEREGwsK/IyMd6enh0dHLe3t0zMzC9vbyXl5ZoaGbR0dFHR0TU1NSenp2BgX/k5OOsrKyQkI+4uLZhYV/1XlS5AAAC6UlEQVR4nO3b63aiMBSGYSIHCxSQk4hWqXD/91iZmc6hbhwJKXvD+p7/rJXXNIAxtSwAAAAAAAAAAAAAAAAAAAAAAAAAGEk9xXejpHGy1rvmdRi8cg+a8lzIX9ymzLz8tJVWMzrk1xSV78WOe+z/0AzppyapioB7+H/oh/Tz4hzEpEwK6eflcOJO+GlqyG21XPbcEb3JITdVyF1hmQlRScF/MzYSoqINd4ehEOV78TpClH9l/usyFaLcy0pClGuvJERl25WEqPNaQhLOB6PJEOUx3rnoj9a5VzaJ+7+QiHFKyAEdtneCXWjXuXf0H5YchIU8eOHYv7TJcIjDd+MaG2JZsZ1GQyFRPde474wPuamdoRJvlkFTtEKsIBtYK+UcYybphVi7Ix3is31b1AyxwoElz7ZIdENeD/QfF9s3LO3RBPSUsK12/Y81JS+tuL4p6ocU5KVs7/L6ISH5WHzj2nrUD9mV1KXO8kKCN+rSkmuPXj9kSz4TG66t4AkzQoYscEboNbLAEPolZYF3rY58Rzku7zlyJi9d3pM9JpeISr99xAO0Q3J6T+X67SMeoBtCPw6VKr5/yDTNkNijOxTbj+96IfF5YLMumWPMJK2Q/Xlon66dZdAUjZB90QxkKD+fadj3xobEwSUb3gMu+U4PjAmJT/W1erBhyvgUGQg5el+9p23W78c/3sP2O2EhujLG36hNdrh8W9hmQyrOn9oNdjSsZ2vMdTA+Q8yGtLxnOMx1MB8/M5ThZ9xnTg2FVOyHNI1kuGfWYyjGQqIN/0lAAyFuy708fpia4R8LEadlJ4b42YX7LOOnKRVl2smYjZ52RpTmJwFr/DedmUiO7caWFNGjh+reiW6SpHGqc96J/J8eMiR9+aKuu84Od3uBAZ/IEP4D4uMhRBqESIMQaRAiDUKkQYg0CJEGIdIgRBqESIMQaRAiDUKkQYg0CJFmNSE2hf08BgAAAAAAAAAAAAAAAAAAAAAAAMATPgDhNidLEEyT+QAAAABJRU5ErkJggg==</PackageIconUrl>
+    <PackageLicenseUrl>https://github.com/chuksgpfr/privacy.com/blob/main/LICENSE</PackageLicenseUrl>
+    <Owners>Chuksgpfr</Owners>
+    <PackageProjectUrl>https://github.com/chuksgpfr/privacy.com</PackageProjectUrl>
+    <Summary>An API wrapper for privacy.com</Summary>
+    <PackageTags>privacy.com, privacy nuget package, privacy, cards</PackageTags>
+    <Title>Privacy.com </Title>
+    <Description>This library provides you with all you need to make proper calls to the Privacy.com API from a C# environment. It is written in C#, so its usage is simple and straightforward.</Description>
+    <DevelopmentDependency>true</DevelopmentDependency>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+</Project>
